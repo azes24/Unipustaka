@@ -1,0 +1,212 @@
+.tambahbuku p{
+    color: red;
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+.editbuku p{
+    color: red;
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+.editprofil p{
+    color: red;
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+/* FORM UNTUK TAMBAH BUKU */
+.tambahbuku {
+    width: 70%;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+
+
+/* Judul */
+.tambahbuku h1 {
+    text-align: center;
+    color: #004d7a;
+    margin-bottom: 25px;
+}
+
+/* Form */
+.formTambah {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Label dan input */
+.formTambah label {
+    font-weight: bold;
+    color: #004d7a;
+}
+
+.formTambah input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline-color: #035f94;
+}
+
+/* Tombol tambah */
+.tombolTambah {
+    margin-top: 50px;
+    background: linear-gradient(90deg, #006ba1, #00a3ad);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    align-self: flex-end;
+}
+
+.tombolTambah:hover {
+    background: linear-gradient(90deg, #004d7a, #0285d1);
+    
+}
+
+
+
+/* FORM UNTUK EDIT BUKU */
+.editbuku {
+    width: 50%;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+/* Judul */
+.editbuku h1 {
+    text-align: center;
+    color: #004d7a;
+    margin-bottom: 25px;
+}
+
+/* Form */
+.formedit {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Label dan input */
+.formedit label {
+    font-weight: bold;
+    color: #003f63;
+}
+
+.formedit input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline-color: #008793;
+}
+
+/* Tombol simpan */
+.tombolSimpan {
+    margin-top: 50px;
+    background: linear-gradient(90deg, #004d7a, #008793);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    align-self: flex-end;
+}
+
+.tombolSimpan:hover {
+    background: linear-gradient(90deg, #006ba1, #00a3ad);
+}
+
+/* INI UNTUK FORM EDIT PROFIL */
+.tombolkembali {
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: fit-content;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.tombolkembali a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.editprofil {
+    width: 50%;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+/* Judul */
+.editprofil h1 {
+    text-align: center;
+    color: #004d7a;
+    margin-bottom: 30px;
+}
+
+/* Form */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Label dan input */
+.edit-form label {
+    font-weight: bold;
+    color: #003f63;
+}
+
+.edit-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline-color: #008793;
+}
+
+/* Tombol simpan */
+.simpanUbah {
+    margin-top: 50px;
+    background: linear-gradient(90deg, #004d7a, #008793);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    align-self: flex-end;
+}
+
+.simpanUbah:hover {
+    background: linear-gradient(90deg, #006ba1, #00a3ad);
+}

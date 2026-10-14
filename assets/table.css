@@ -1,0 +1,210 @@
+/* INI BAGIAN UNTUK TABEL MANAGE BUKU */
+.tabelBukuContainer {
+    padding: 40px;
+    background: url(background.png);
+    flex: 1;
+    min-height: 700px;
+}
+
+.judulTabel {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.judulTabel h1{
+    font-size: 24px;
+    color: #004d7a;
+    margin: 0;
+}
+
+.button-tambah{
+    position: absolute;
+    right: 0;   
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    margin-top: 45px;
+    background: #005f87;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: fit-content;
+}
+
+.button-tambah :hover {
+    background: #00395a;
+}
+
+.tabelbuku {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    table-layout: fixed;
+}
+
+.tabelbuku th, .tabelbuku td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    max-width: 400px;
+}
+
+.tabelbuku th {
+    background: #004d7a;
+    color: #fff;
+}
+
+.tombolEdit, .tombolHapus {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: 0.2s;
+  width: fit-content;
+}
+
+.tombolEdit { background: #6eab32; }
+.tombolEdit:hover { background: #507b24;; }
+.tombolHapus { background: #d9534f; }
+.tombolHapus:hover { background: #a92924; }
+
+
+/* INI BAGIAN TABEL UNTUK DAFTAR PEMUSTAKA  */
+.tabelPemustakaContainer {
+    padding: 40px;
+    background: url(background.png);
+    flex: 1;
+    min-height: 700px;
+}
+
+.judulTabel {
+    display: flex;
+    justify-content: center; /* hanya judul di tengah */
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.judulTabel h1 {
+    font-size: 24px;
+    color: #004d7a;
+    margin: 0;
+}
+
+.tabelpemustaka {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.tabelpemustaka th, .tabelpemustaka td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.tabelpemustaka th {
+    background: #004d7a;
+    color: #fff;
+}
+
+.tabelpemustaka tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(197, 5, 5);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s;
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;  
+    transform: translateY(-50%);
+    margin-top: 45px;
+}
+
+.back-button:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+/* INI BAGIAN TABEL UNTUK UPDATE STATUS PEMINJAMAN   */
+.tabelStatusContainer {
+    padding: 40px;
+    background: url(background.png);
+    flex: 1;
+    min-height: 700px;
+}
+
+.daftar-riwayat{
+    margin-top: 60px;
+}
+
+.judulTabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.judulTabel h1 {
+    font-size: 24px;
+    color: #004d7a;
+    margin: 0;
+}
+
+.tabelstatus {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.tabelstatus th, .tabelstatus td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.tabelstatus th {
+    background: #004d7a;
+    color: #fff;
+}
+
+.tabelstatus tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.status-select {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.add-button {
+    padding: 8px 16px;
+    background-color: #6eab32;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.add-button:hover {
+    background-color: #507b24;
+}
